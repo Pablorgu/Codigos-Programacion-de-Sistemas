@@ -1,0 +1,17 @@
+{
+   
+    "version": "0.2.0",
+"configurations": [
+{
+"name": "Debug2019",
+"type": "cppdbg",
+"request": "launch",
+"program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+"args": ["C:\\Users\\pablo\\Documents\\Cno\\Septiembre2019\\examen.dat"],
+"cwd": "${fileDirname}",
+"MIMode": "gdb",
+"miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+"preLaunchTask": "CompilarPractica2019"
+}
+]
+}

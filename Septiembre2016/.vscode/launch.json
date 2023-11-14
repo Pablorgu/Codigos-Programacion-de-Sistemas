@@ -1,0 +1,18 @@
+{
+   
+    "version": "0.2.0",
+"configurations": [
+{
+"name": "Debug2016",
+"type": "cppdbg",
+"request": "launch",
+"program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+"args": ["C:\\Users\\pablo\\Documents\\Cno\\Septiembre2016\\Salida.bin"],
+"stopAtEntry": false,
+"cwd": "${fileDirname}",
+"MIMode": "gdb",
+"miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+"preLaunchTask": "CompilarPractica2016"
+}
+]
+}
